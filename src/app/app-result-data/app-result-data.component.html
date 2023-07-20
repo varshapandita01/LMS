@@ -1,0 +1,31 @@
+<h3 style="color: chocolate">Data for {{ date }} & future sessions, if any</h3>
+<mat-card class="example-card">
+  <h2 *ngIf="showSearchingMsg">{{searchingText}}</h2>
+  <table id="id" border="1px red #dddddd" [cellPadding]=8 style="background-color: rgb(237, 251, 252); color: black;">
+      <tr *ngFor="let centre of mainData">
+        <tbody *ngFor="let session of centre.sessions">
+        <th>Centre Name</th>
+        <td [width]=95>{{ centre.name }}</td>
+        <th>Pincode</th>
+        <td>{{ centre.pincode }}</td>
+        <th>Date</th>
+        <td [width]=75>{{ session.date }}</td>
+        <th>Total Availability</th>
+        <td [width]=20 [ngClass]="{
+          'isAvailable':session.available_capacity > 0
+        }">
+          {{ session.available_capacity }} 
+        <th>Availability by Dose 1</th>
+        <td [width]=20 [ngClass]="{
+          'isAvailable':session.available_capacity_dose1 > 0
+        }">{{
+          session.available_capacity_dose1
+        }}</td>
+        <th>Availability by Dose 2</th>
+        <td [width]=20 [ngClass]="{
+          'isAvailable':session.available_capacity_dose2 > 0
+        }">{{ session.available_capacity_dose2 }}</td>
+      </tbody>
+      </tr> 
+  </table>
+</mat-card>

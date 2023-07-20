@@ -1,0 +1,96 @@
+<p>
+  <mat-toolbar color="warn">
+    <span>Learning Management System</span>
+    <span class="example-spacer"></span>
+
+    <!-- <section>
+      <button
+        mat-icon-button
+        [matMenuTriggerFor]="menu"
+        aria-label="Example icon-button with a menu"
+      >
+        <mat-icon>settings</mat-icon>
+      </button>
+      <mat-menu [hasBackdrop]="false" #menu="matMenu">
+        <div (click)="$event.stopPropagation()" class="menu-pop">
+          <h4><b>For Keep Searching option</b></h4>
+          <form>
+            <mat-form-field>
+              <mat-label>Try Count Limit</mat-label>
+              <input
+                type="number"
+                name="stopTryCount"
+                matInput
+                [(ngModel)]="stopTryCount"
+              />
+            </mat-form-field>
+          </form>
+          <br />
+          <form>
+            <mat-form-field>
+              <mat-label>Try Again Time limit</mat-label>
+              <input
+                type="number"
+                name="tryLimitinMS"
+                matInput
+                [(ngModel)]="tryLimitinMS"
+              />
+              <span matSuffix>ms</span>
+            </mat-form-field>
+          </form>
+          <button
+            mat-stroked-button
+            color="warn"
+            [matMenuTriggerFor]="menu"
+            #menuTrigger="matMenuTrigger"
+            (click)="closeMenu()"
+          >
+            Done
+          </button>
+        </div>
+      </mat-menu>
+    </section> -->
+  </mat-toolbar>
+</p>
+<!-- <nav>
+  <a routerLink="register">Register Here</a>
+</nav> -->
+
+
+
+<!-- <section>
+  <mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button mat-icon-button routerLink="/register">
+     Register Here
+    </button>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
+    <button mat-icon-button routerLink="/addCourse">
+      Add Course
+     </button>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <button mat-icon-button routerLink="/viewAllCourses">
+      View All Course
+     </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+</section> -->
+
+<mat-toolbar color="primary">
+  <button mat-button routerLink="/register">Register Here</button>
+  <button mat-button routerLink="/addCourse">Add Course</button>
+  <button mat-button routerLink="/viewAllCourses">View All Course</button>
+  <button mat-button routerLink="/deletecourse">Delete Course</button>
+  <button mat-button routerLink="/getcourseDetails">Search Course</button>
+</mat-toolbar>
+
+  
+
+
+
+<div class="Myfooter">
+  Application Designed by Varsha. @Copyrighted. @2021
+</div>
+<router-outlet></router-outlet>

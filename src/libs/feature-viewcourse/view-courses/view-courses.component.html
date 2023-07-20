@@ -1,0 +1,11 @@
+<h2>All Courses</h2>
+
+<mat-list>
+  <mat-list-item *ngFor="let course of courses">
+    <h3 mat-line>{{ course.courseName }}</h3>
+    <p mat-line>escription: {{ course.courseDuration }}</p>
+    <p mat-line>Technology: {{ course.technology }}</p>
+    <p mat-line>escription: {{ course.courseDescriptiom }}</p>
+    <p mat-line>Launch Url: {{ course.launchUrl }}</p>
+  </mat-list-item>
+</mat-list>

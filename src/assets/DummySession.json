@@ -1,0 +1,629 @@
+{
+    "centers": [
+        {
+            "center_id": 44690,
+            "name": "Gujjar Nagar",
+            "address": "Gujjar Nagar",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 32,
+            "long": 74,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "316fba4e-7fba-44e9-a628-65e067c8f514",
+                    "date": "27-05-2021",
+                    "available_capacity": 49,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 24
+                },
+                {
+                    "session_id": "7034148b-7aa3-40ec-a128-d44de661581c",
+                    "date": "28-05-2021",
+                    "available_capacity": 46,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 24,
+                    "available_capacity_dose2": 22
+                },
+                {
+                    "session_id": "97980899-8287-4f73-9d60-682113204e05",
+                    "date": "29-05-2021",
+                    "available_capacity": 47,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 22
+                },
+                {
+                    "session_id": "0541574f-cb79-457c-94ab-2315063919cc",
+                    "date": "31-05-2021",
+                    "available_capacity": 48,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 23
+                }
+            ]
+        },
+        {
+            "center_id": 670355,
+            "name": "Civil Secretariat Dispensary",
+            "address": "Civil Secretariat Jammu",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 33,
+            "long": 74,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "773e236f-c7e7-4bf2-9675-af340039c4ad",
+                    "date": "27-05-2021",
+                    "available_capacity": 48,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 23,
+                    "available_capacity_dose2": 25
+                },
+                {
+                    "session_id": "57608e93-00d1-438d-839d-a9b76450340a",
+                    "date": "28-05-2021",
+                    "available_capacity": 50,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 25
+                },
+                {
+                    "session_id": "fb2c89a5-b5d4-4b21-8601-f832c980b87e",
+                    "date": "31-05-2021",
+                    "available_capacity": 46,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 21,
+                    "available_capacity_dose2": 25
+                }
+            ]
+        },
+        {
+            "center_id": 44692,
+            "name": "Bahu Fort",
+            "address": "Bahu Fort",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 0,
+            "long": 0,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "ccecfac4-233e-4cc8-b3a5-412682a7bf0a",
+                    "date": "27-05-2021",
+                    "available_capacity": 48,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 23
+                },
+                {
+                    "session_id": "9fd3bff1-abec-48ae-b892-0cf4af407d9a",
+                    "date": "28-05-2021",
+                    "available_capacity": 49,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 24
+                },
+                {
+                    "session_id": "ded527e8-4cab-4f7e-8dd6-679f81d54e36",
+                    "date": "29-05-2021",
+                    "available_capacity": 45,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 21,
+                    "available_capacity_dose2": 24
+                },
+                {
+                    "session_id": "aed01b83-c9eb-4721-8afb-622bc13d5a00",
+                    "date": "31-05-2021",
+                    "available_capacity": 47,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 22
+                }
+            ]
+        },
+        {
+            "center_id": 498512,
+            "name": "GMC Jammu",
+            "address": "Bakshi Nagar",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 32,
+            "long": 74,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "b30a7453-e8da-413c-8b41-e71c9e9d371c",
+                    "date": "27-05-2021",
+                    "available_capacity": 64,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 47,
+                    "available_capacity_dose2": 17
+                },
+                {
+                    "session_id": "056d3b4a-0bd9-4feb-8af3-ecbdfa21c192",
+                    "date": "28-05-2021",
+                    "available_capacity": 75,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 47,
+                    "available_capacity_dose2": 28
+                },
+                {
+                    "session_id": "220d0cb1-893e-42c7-ba07-ba639bcf6b72",
+                    "date": "29-05-2021",
+                    "available_capacity": 71,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 47,
+                    "available_capacity_dose2": 24
+                },
+                {
+                    "session_id": "5ce60a13-67a6-4cb0-8b82-0771956f35cc",
+                    "date": "31-05-2021",
+                    "available_capacity": 54,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 46,
+                    "available_capacity_dose2": 8
+                }
+            ]
+        },
+        {
+            "center_id": 44707,
+            "name": "Shakti Nagar Urban Health Post",
+            "address": "Shakti Nagar",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 32,
+            "long": 74,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "f3646cf4-74e8-488a-a559-e8a8fcceb4da",
+                    "date": "27-05-2021",
+                    "available_capacity": 34,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 7,
+                    "available_capacity_dose2": 27
+                },
+                {
+                    "session_id": "c814f8ca-3848-4476-abd1-edb7e12f5552",
+                    "date": "28-05-2021",
+                    "available_capacity": 39,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 14,
+                    "available_capacity_dose2": 25
+                },
+                {
+                    "session_id": "2e030ceb-e3f0-4e7d-a06a-106cb839aead",
+                    "date": "29-05-2021",
+                    "available_capacity": 43,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 23,
+                    "available_capacity_dose2": 20
+                },
+                {
+                    "session_id": "464035b6-699c-4630-8f62-3f21fc1f19b7",
+                    "date": "31-05-2021",
+                    "available_capacity": 29,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 22,
+                    "available_capacity_dose2": 7
+                }
+            ]
+        },
+        {
+            "center_id": 44696,
+            "name": "Mubarak Mandi",
+            "address": "Mubarak Mandi",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 0,
+            "long": 0,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "9fa162d4-8356-4b72-989d-a0a17cef772c",
+                    "date": "27-05-2021",
+                    "available_capacity": 100,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 50,
+                    "available_capacity_dose2": 50
+                },
+                {
+                    "session_id": "f171f6f3-37cc-4770-bc22-3c6a3fe42d86",
+                    "date": "28-05-2021",
+                    "available_capacity": 100,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 50,
+                    "available_capacity_dose2": 50
+                },
+                {
+                    "session_id": "d40cdc9b-bf4b-42fe-a428-552e7bca512b",
+                    "date": "29-05-2021",
+                    "available_capacity": 100,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 50,
+                    "available_capacity_dose2": 50
+                },
+                {
+                    "session_id": "b17613a5-6c8a-4a87-8a16-2616d4a5f610",
+                    "date": "31-05-2021",
+                    "available_capacity": 100,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 50,
+                    "available_capacity_dose2": 50
+                }
+            ]
+        },
+        {
+            "center_id": 44715,
+            "name": "Talab Khatikan UPHC",
+            "address": "Talab Khatikan",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 32,
+            "long": 74,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "ed3d46c2-3281-48f2-8312-181433ed2e3b",
+                    "date": "27-05-2021",
+                    "available_capacity": 44,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 22,
+                    "available_capacity_dose2": 22
+                },
+                {
+                    "session_id": "73f19873-4710-4792-a27c-f3b0a39a1749",
+                    "date": "28-05-2021",
+                    "available_capacity": 50,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 25
+                },
+                {
+                    "session_id": "51bc2583-6111-4644-b5d3-04c4fbefb3dc",
+                    "date": "29-05-2021",
+                    "available_capacity": 45,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 20
+                },
+                {
+                    "session_id": "2a8dc03c-6b4d-4369-b3f3-65129ac8eab4",
+                    "date": "31-05-2021",
+                    "available_capacity": 43,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 25,
+                    "available_capacity_dose2": 18
+                }
+            ]
+        },
+        {
+            "center_id": 562749,
+            "name": "SMGS Hospital",
+            "address": "SMGS Hospital",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 32,
+            "long": 74,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "c24ae872-5133-4613-9c94-0c0318ec5b7f",
+                    "date": "27-05-2021",
+                    "available_capacity": 70,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 48,
+                    "available_capacity_dose2": 22
+                },
+                {
+                    "session_id": "e13c453f-9392-42c7-8b4e-04d54f2a6912",
+                    "date": "28-05-2021",
+                    "available_capacity": 82,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 32,
+                    "available_capacity_dose2": 50
+                },
+                {
+                    "session_id": "4f111691-a839-40fc-9548-68159f084920",
+                    "date": "29-05-2021",
+                    "available_capacity": 83,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 46,
+                    "available_capacity_dose2": 37
+                },
+                {
+                    "session_id": "83c4f154-8296-4cb3-8a40-eef94a152074",
+                    "date": "31-05-2021",
+                    "available_capacity": 69,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 42,
+                    "available_capacity_dose2": 27
+                }
+            ]
+        },
+        {
+            "center_id": 692829,
+            "name": "Govt Girls High School Canal",
+            "address": "Canal Road Near Irrigation Office",
+            "state_name": "Jammu and Kashmir",
+            "district_name": "Jammu",
+            "block_name": "Jammu Urban BVS",
+            "pincode": 180001,
+            "lat": 32,
+            "long": 74,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "11a6d4bd-fb98-4009-a876-4c25aeaed37f",
+                    "date": "27-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 18,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        }
+    ]
+}
+

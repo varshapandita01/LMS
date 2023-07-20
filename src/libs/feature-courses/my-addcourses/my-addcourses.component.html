@@ -1,0 +1,31 @@
+<form (ngSubmit)="addCourse()" #courseForm="ngForm" class="course-form">
+    <mat-form-field appearance="fill">
+      <mat-label>Course Name</mat-label>
+      <input matInput name="courseName" required [(ngModel)]="course.courseName">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Duration</mat-label>
+      <input matInput name="duration" required [(ngModel)]="course.courseDuration">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Description</mat-label>
+      <input matInput name="description" required [(ngModel)]="course.courseDescription">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Technology</mat-label>
+      <input matInput name="technology" required [(ngModel)]="course.technology">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Launch URL</mat-label>
+      <input matInput name="launchUrl" required [(ngModel)]="course.launchUrl">
+    </mat-form-field>
+  
+   
+  
+    <button mat-raised-button color="primary" type="submit" [disabled]="!courseForm.form.valid">Add Course</button>
+  </form>
+  
