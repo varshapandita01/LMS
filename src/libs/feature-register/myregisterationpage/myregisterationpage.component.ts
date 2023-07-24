@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { FormGroup, FormControl } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { PopUpSnackMessageService } from 'src/app/services/pop-up-snack-message.service';
 
@@ -20,7 +21,7 @@ export class MyregisterationpageComponent implements OnInit {
   emailErrorMessage: string;
 
   constructor(private http: HttpClient,private formBuilder: FormBuilder, private router: Router,
-    private popUpService: PopUpSnackMessageService) {
+    private popUpService: PopUpSnackMessageService,  private dialog: MatDialog) {
     // this.registrationForm = this.formBuilder.group({
     //   email: ['', [Validators.required, Validators.email]],
     //   password: ['', [Validators.required, Validators.minLength(8)]],
@@ -36,8 +37,8 @@ export class MyregisterationpageComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    
   }
+
   register() {
     if (this.registrationForm.valid) {
     this.http.post('http://localhost:8081/api/v1.0/lms/company/register', this.user)
@@ -45,15 +46,15 @@ export class MyregisterationpageComponent implements OnInit {
         response => {
           console.log('Registration successful:', response);
           // Handle success response
-          this.popUpService.showSuccessMessage('Register success')
+          this.popUpService.showSuccessMessage('Register success')      
+         // Reload the page after successful form submission
         },
       
         error => {
           console.log('Registration failed:', error);
           // Handle error response
-          this.popUpService.showErrorMessage(console.error)
-
-        }
+          this.popUpService.showErrorMessage(error.error.join(`........`));
+     }
       );
     }
     else {
@@ -72,6 +73,7 @@ export class MyregisterationpageComponent implements OnInit {
     }
     return '';
   }
+ 
 
 
 }

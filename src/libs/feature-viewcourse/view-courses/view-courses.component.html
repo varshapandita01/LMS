@@ -1,11 +1,13 @@
 <h2>All Courses</h2>
-
+<div class="course-list-container">
 <mat-list>
   <mat-list-item *ngFor="let course of courses">
-    <h3 mat-line>{{ course.courseName }}</h3>
-    <p mat-line>escription: {{ course.courseDuration }}</p>
+    <h3 mat-line>Course Name: {{ course.courseName }}</h3>
+    <p mat-line>Duration: {{ course.courseDuration }}</p>
     <p mat-line>Technology: {{ course.technology }}</p>
-    <p mat-line>escription: {{ course.courseDescriptiom }}</p>
+    <p mat-line>Description: {{ course.courseDescriptiom }}</p>
     <p mat-line>Launch Url: {{ course.launchUrl }}</p>
+    <mat-divider></mat-divider>
   </mat-list-item>
 </mat-list>
+</div>

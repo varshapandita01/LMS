@@ -5,6 +5,7 @@ import {  MatFormFieldModule, MatLabel } from '@angular/material/form-field';
 import { MatSelect, MatSelectModule } from '@angular/material/select';
 import { MatOption, MatOptionModule } from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -12,6 +13,7 @@ import { MatInputModule } from '@angular/material/input';
   declarations: [SearchCourseComponent],
   imports: [
     CommonModule,
+    FormsModule,
     MatOptionModule,
     MatSelectModule,
     MatFormFieldModule,

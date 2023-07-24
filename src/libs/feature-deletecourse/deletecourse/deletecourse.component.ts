@@ -1,5 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { PopUpSnackMessageService } from 'src/app/services/pop-up-snack-message.service';
 
 @Component({
   selector: 'app-deletecourse',
@@ -9,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class DeletecourseComponent implements OnInit {
   courseName: string='';
 
-  constructor(private http : HttpClient) { }
+  constructor(private http : HttpClient, private popUpService: PopUpSnackMessageService) { }
 
   ngOnInit(): void {
   }
@@ -22,6 +23,7 @@ export class DeletecourseComponent implements OnInit {
       () => {
         console.log('Course deleted successfully');
         // Handle success response
+        this.popUpService.showSuccessMessage('Course Deleted Successfully')
       },
       (error) => {
         console.log('Course deletion failed:', error);

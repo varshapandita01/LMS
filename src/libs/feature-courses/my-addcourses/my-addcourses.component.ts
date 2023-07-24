@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { FormGroup, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
+import { PopUpSnackMessageService } from 'src/app/services/pop-up-snack-message.service';
 @Component({
   selector: 'app-my-addcourses',
   templateUrl: './my-addcourses.component.html',
@@ -10,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class MyAddcoursesComponent implements OnInit {
 
-  constructor(private http: HttpClient,private formBuilder: FormBuilder, private router: Router) { }
+  constructor(private http: HttpClient,private formBuilder: FormBuilder, private router: Router,private popUpService: PopUpSnackMessageService) { }
 
 
   ngOnInit(): void {
@@ -37,10 +38,12 @@ export class MyAddcoursesComponent implements OnInit {
             technology: '',
             launchUrl:''
           };
+          this.popUpService.showSuccessMessage("Course Added Successfully")
           // Handle success response
         },
         error => {
           console.log('Failed to add course:', error);
+          this.popUpService.showErrorMessage(error.error.join())
           // Handle error response
         }
       );

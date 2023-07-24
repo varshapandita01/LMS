@@ -12,9 +12,9 @@ export class SearchCourseComponent implements OnInit {
   ngOnInit(): void {
   }
   searchType: string = 'technology'; // Default search type
-  searchTechnology: string;
+  searchTechnology: string='dd';
   minDuration: number=0;
-  maxDuration: number=0;
+  maxDuration: number=1;
 
   constructor(private http: HttpClient) {}
 
@@ -32,6 +32,8 @@ export class SearchCourseComponent implements OnInit {
     // Search by technology logic
     // Send the search criteria to the backend API using HttpClient
     const apiUrl = 'http://localhost:8082/api/v1.0/lms/courses/info';
+    console.log(this.searchTechnology);
+    
     const params = new HttpParams().set('technology', this.searchTechnology);
 
     this.http.get(apiUrl, { params }).subscribe(
@@ -48,7 +50,7 @@ export class SearchCourseComponent implements OnInit {
 
   
   searchByDurationRange(): void {
-    const apiUrl = 'http://localhost:8081/api/v1.0/lms/courses/searchByDurationRange';
+    const apiUrl = 'http://localhost:8082/api/v1.0/lms/courses/get';
     const params = new HttpParams()
       .set('minDuration', String(this.minDuration))
       .set('maxDuration', String(this.maxDuration));

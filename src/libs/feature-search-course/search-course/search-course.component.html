@@ -4,15 +4,16 @@
       <mat-option value="technology">Technology</mat-option>
       <mat-option value="range">Duration Range</mat-option>
     </mat-select>
-  
+  </mat-form-field>
   <!-- Show technology input when search type is 'technology' -->
     <ng-container *ngIf="searchType == 'technology'">
-    <mat-form-field>
-      <mat-label>Technology</mat-label>
-      <input matInput [(ngModel)]="searchTechnology" name="searchTechnology">
-    </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Technology</mat-label>
+        <input matInput placeholder="Search Technology" [(ngModel)]="searchTechnology">
+      </mat-form-field>
+    
   </ng-container> 
-</mat-form-field>
+
 
   <!-- Show duration range inputs when search type is 'range' -->
    <ng-container *ngIf="searchType == 'range'">
@@ -28,4 +29,5 @@
   </ng-container> 
   
   <button mat-raised-button color="primary" (click)="search()">Search</button>
+  
   
